@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsmath, todonotes, amssymb}
+
+\makeatletter
+\def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \def\@oddfoot{}%
+ \let\@evenfoot\@oddfoot}
+\makeatother
+
+
+\usepackage{parskip}
+
+
+\setlength{\parindent}{0pt} 
+
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{sectsty, xcolor, microtype}
+
+\definecolor{rahmen}{RGB}{0,73,114}
+\definecolor{dred}{RGB}{230,0,0}
+
+\sectionfont{\color{rahmen}}
+\subsectionfont{\color{rahmen}}
+
+
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{tikz}
+
+\usepackage[colorlinks=true,
+            linkcolor=dred,
+            urlcolor=blue,
+            citecolor=blue,
+            anchorcolor=dred]{hyperref}
+
+
+\newcommand{\hidsec}[1]{\textbf{#1}}
+
+\title{}
+\author{}
+\date{\today}
+
+
+\begin{document}
+\end{document}
+
