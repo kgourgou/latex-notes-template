@@ -1,5 +1,16 @@
 \documentclass{article}
-\usepackage{amsmath, todonotes, amssymb}
+\usepackage{todonotes, amssymb}
+\usepackage{sectsty, xcolor, microtype}
+
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{tikz}
+
+\usepackage[colorlinks=true,
+            linkcolor=dred,
+            urlcolor=blue,
+            citecolor=blue,
+            anchorcolor=dred]{hyperref}
+
 
 \makeatletter
 \def\ps@pprintTitle{%
@@ -21,7 +32,6 @@
 
 \usepackage[margin=1in]{geometry}
 
-\usepackage{sectsty, xcolor, microtype}
 
 \definecolor{rahmen}{RGB}{0,73,114}
 \definecolor{dred}{RGB}{230,0,0}
@@ -30,14 +40,6 @@
 \subsectionfont{\color{rahmen}}
 
 
-\usepackage{amsmath, amssymb, graphicx}
-\usepackage{tikz}
-
-\usepackage[colorlinks=true,
-            linkcolor=dred,
-            urlcolor=blue,
-            citecolor=blue,
-            anchorcolor=dred]{hyperref}
 
 
 \newcommand{\hidsec}[1]{\textbf{#1}}
